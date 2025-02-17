@@ -5,11 +5,12 @@
 }
 
 body {
-    background-image: url("C:\Users\lunao\OneDrive\Documentos\siteaaaaaa\background_img.png");
+    background-image: url('images/background_img.png');
     /* isso não vai dar um problema de localização da imagem dps não?? */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 footer, header {
