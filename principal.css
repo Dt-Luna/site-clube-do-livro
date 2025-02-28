@@ -34,6 +34,8 @@ div.blocos {
 }
 
 .livro img {
+    float: left;
+    margin-right: 10px;
     vertical-align: top;
 }
 
