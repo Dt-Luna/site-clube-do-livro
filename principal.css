@@ -33,6 +33,10 @@ div.blocos {
     border-radius: 30px;
 }
 
+.livro img {
+    vertical-align: top;
+}
+
 a.participar {
     background-color: rgb(175 137 100);
     color: aliceblue;
