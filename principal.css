@@ -32,6 +32,8 @@ div.blocos {
     padding: 1em;
     border-radius: 30px;
     overflow: hidden;
+    display: flex;
+    align-items: flex-start;
 }
 
 .livro img {
