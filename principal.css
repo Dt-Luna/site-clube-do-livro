@@ -114,3 +114,9 @@ a {
     color: aliceblue;
     text-decoration: none;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
