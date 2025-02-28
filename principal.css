@@ -32,13 +32,12 @@ div.blocos {
     padding: 1em;
     border-radius: 30px;
     overflow: hidden;
-    display: flex;
-    align-items: flex-start;
 }
 
 .livro img {
     float: left;
     margin-right: 10px;
+    margin-bottom: 10px;
     vertical-align: top;
 }
 
