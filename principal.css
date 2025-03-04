@@ -19,6 +19,11 @@ main.somos {
     display: flex;
 }
 
+main {
+    margin: 5em;
+}
+
+
 article.principal {
     display: flex;
 }
@@ -125,4 +130,33 @@ a {
     content: "";
     clear: both;
     display: table;
+}
+
+table {
+    width: 90%;
+    height: 25em;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+th{
+    text-align: center;
+    color: black;
+    background-color: #af8964;
+    padding: 12px;
+}
+
+td {
+    text-align: center;
+    color: black;
+    background-color: #d8bb9e;
+    padding: 12px;
+}
+
+td:first-child {
+    background-color: #af8964 ;
+    color: black;
 }
