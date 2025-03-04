@@ -3,7 +3,15 @@
     margin: 0;
 }
 
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
 
+p {
+    font-size: 1em;
+    margin-bottom: 0.5;
+}
 
 body {
     background-image: url('images/background_img.png');
@@ -20,7 +28,12 @@ main.somos {
 }
 
 main {
-    margin: 5em;
+
+}
+
+div.somos {
+    display: flex;
+    gap: 5em
 }
 
 
@@ -35,8 +48,10 @@ section {
     color: aliceblue;
 }
 
-aside {
-    float:left
+.somos aside {
+    flex-basis:100%;
+    float:left;
+    width: 100%;
 }
 
 div.blocos {
@@ -49,6 +64,32 @@ div.blocos {
     overflow: hidden;
 }
 
+div.fdireita {
+    background-color: rgba(11, 62, 139) ;
+    color:aliceblue;
+    text-align: left;
+    padding: 1em;
+    overflow: hidden;
+    margin: 1em 0em 1em 1em;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+div.fesquerda {
+    background-color: rgba(11, 62, 139) ;
+    color:aliceblue;
+    text-align: left;
+    padding: 1em;
+    overflow: hidden;
+    margin: 1em 6em 1em 0em;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 .livro img {
     float: left;
     margin-right: 10px;
@@ -56,12 +97,18 @@ div.blocos {
     vertical-align: top;
 }
 
+.fundador img {
+    float: left;
+    margin-right: 1em;
+    border-radius: 90px;
+}
+
 div a{
     background-color: rgb(175 137 100);
     color: aliceblue;
     font-size: 2em;
     font-weight: bolder;
-    padding: 0.3em 0.5em 0.3em 0.5em;
+    padding: 0.3em 0.8em 0.3em 0.8em;
     margin: 0;
     justify-content: center;
     vertical-align: center;
