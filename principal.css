@@ -8,6 +8,10 @@ h2 {
     margin-bottom: 1em;
 }
 
+.forms {
+    text-align: center;
+}
+
 h3 {
     margin-bottom: 0.6em;
 }
@@ -243,7 +247,6 @@ a {
 }
 
 table {
-    width: 90%;
     height: 25em;
     margin: auto;
     margin-top: 4em;
@@ -257,6 +260,7 @@ th{
     color: black;
     background-color: #af8964;
     padding: 12px;
+    width: 5em
 }
 
 td {
@@ -272,10 +276,25 @@ td:first-child {
 }
 
 form{
+    border: 0.4em solid #2b1f14;
     background-color:#af8964 ;
     border-radius: 40px;
     padding: 3em;
     color: black;
     width: 30vw;
     margin: auto;
+}
+
+.enunciado{
+    font-weight: bold;
+    color: white;
+    margin: 1em 0em 0.4em 0em;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    background-color: #faede1;
+    border: 0.1em solid #2b1f14;
+    padding: 0.5em;
+    float:right
 }

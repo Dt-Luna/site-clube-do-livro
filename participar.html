@@ -21,25 +21,74 @@
         </nav>
     </header>
     <main>
-        <h2>Formulário de Inscrição</h2>
+        <h2 class="forms">Formulário de Inscrição</h2>
         <form>
-            <label for="nome">Nome</label><br>
+            <label for="nome" class="enunciado">Nome</label><br>
             <input type="text" name="nome"><br>
-            <label for="email">E-mail</label><br>
+            <label for="email" class="enunciado">E-mail</label><br>
             <input type="email" name="email"><br>
-            <label for="telefone">Contato</label><br>
+            <label for="telefone" class="enunciado">Contato</label><br>
             <input type="tel" name="telefone"><br>
-            <label></label>
+            <p class="enunciado">
+                Já participou de um clube do livro?
+            </p>
+            <label>
+                <input type="radio" name="disc" value="sim">
+                Sim
+            </label><br>
+            <label>
+                <input type="radio" name="disc" value="nao">
+                Não
+            </label><br>
+            <p class="enunciado">
+                Preferências de gênero
+            </p>
+            <label>
+                <input type="checkbox" name="genero" value="romance">
+                Romance
+            </label><br>
+            <label>
+                <input type="checkbox" name="genero" value="fantasia">
+                Fantasia
+            </label><br>
+            <label>
+                <input type="checkbox" name="genero" value="distopia">
+                Distopia
+            </label><br>
+            <label>
+                <input type="checkbox" name="genero" value="suspense">
+                Suspense
+            </label><br>
+            <label>
+                <input type="checkbox" name="genero" value="terror">
+                Terror
+            </label><br>
+            <label>
+                <input type="checkbox" name="genero" value="outros">
+                Outros
+            </label><br>
+            <input type="submit" value="Enviar">
         </form>
     </main>
     <footer>
-        <h2>
-            Redes Sociais
-        </h2>
-        <ul>
-            <li><a href="instagram.png"></a></li>
-            <li><a href="facebook.png"></a></li>
-        </ul>
+        <section class="redes">
+            <h2>
+                Redes Sociais
+            </h2>
+            <ul>
+                <li><a href=#><img src="images/instagram.png"></a></li>
+                <li><a href=#><img src="images/facebook.png"></a></li>
+                <li><a href=#><img src="images/twitter.png"></a></li>
+                <li><a href=#><img src="images/youtube.png"></a></li>
+            </ul>
+        </section>
+        <section class="contato">
+            <h2>Entre em contato</h2>
+            <div>
+                <img src="images/telefone.png" width="30px" height="30px">
+                <p>+55 84 9999999</p>
+            </div>
+        </section>
     </footer>
 </body>
 
