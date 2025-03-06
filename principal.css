@@ -31,27 +31,75 @@ main {
 
 }
 
+.titulo-barra-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .barra-pesquisa {
-    display: inline-block;
-            margin-left: 20px;
-            vertical-align: middle;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
 }
 
 .barra-pesquisa input[type="text"] {
     padding: 5px 10px;
-    border-radius: 15px;
+    border-radius: 15px 0 0 15px;
     border: 1px solid #ccc;
     width: 200px;
+    outline: none;
+    background-color: gray;
+    color: white;
+}
+
+.barra-pesquisa input[type="text"]::placeholder {
+    color: white;
 }
 
 .barra-pesquisa button {
-    background: url('images/lupa.png') no-repeat center;
+    background: url('images/lupa.png') no-repeat center, gray;
     background-size: 20px 20px;
-    border: none;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
     width: 30px;
     height: 30px;
     cursor: pointer;
-    vertical-align: middle; 
+    outline: none;
+}
+
+.conteiner-circulo-texto {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* .conteiner-circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(11, 62, 139);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.circulo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
 }
 
 div.somos {
