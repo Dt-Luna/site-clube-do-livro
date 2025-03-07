@@ -298,7 +298,7 @@ td:first-child {
     color: black;
 }
 
-.inscrever{
+.inscrever {
     border: 0.4em solid #2b1f14;
     background-color:#af8964 ;
     border-radius: 40px;
@@ -313,10 +313,15 @@ td:first-child {
     padding: 1em;
 }
 
-.enunciado{
+.enunciado {
     font-weight: bold;
     color: white;
     margin: 1em 0em 0.4em 0em;
+    font-size: 20px;
+}
+
+p.enunciado {
+    font-size: 20px;
 }
 
 input[type="submit"] {
