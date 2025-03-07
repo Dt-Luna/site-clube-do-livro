@@ -61,7 +61,7 @@ main.somos {
     border: 1px solid #ccc;
     width: 400px;
     outline: none;
-    background-color: gray;
+    background-color: rgb(92, 89, 89);
     color: white;
     box-sizing: border-box;
     height: 45px;
@@ -74,38 +74,12 @@ main.somos {
     font-size: 25px;
 }
 
-/*.barra-pesquisa button {
-    background: url('images/lupa.png') no-repeat center, gray;
-    image
-    border: 1px solid #ccc;
-    border-left: none;
-    border-radius: 0 15px 15px 0;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    outline: none;
-}
-*/
 .pesquisa {
     display: flex;
 }
 
-/* input[type="image"]{
-    background-color: gray;
-    color: aliceblue;
-    font-size: 2em;
-    font-weight: bolder;
-    padding: 0.3em 0.8em;
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 0 50px  50px 0;
-    text-decoration: none;
-    vertical-align: middle;
-}
-*/
-
 input[type="image"] {
-    background-color: gray;
+    background-color: rgb(92, 89, 89);
     border: 1px solid #ccc;
     border-left: none;
     border-radius: 0 15px 15px 0;
