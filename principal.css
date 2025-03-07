@@ -179,6 +179,7 @@ div.fesquerda {
     float: left;
     margin-right: 1em;
     border-radius: 90px;
+    width: 150px;
 }
 
 div a{
@@ -244,7 +245,6 @@ footer section div {
     display: flex;
     font-size: 1.2em;
     vertical-align: center;
-
 }
 
 nav ul {
@@ -268,7 +268,6 @@ a {
 }
 
 table {
-    height: 25em;
     margin: auto;
     margin-top: 4em;
     margin-bottom: 4em;
@@ -280,15 +279,18 @@ th{
     text-align: center;
     color: black;
     background-color: #af8964;
-    padding: 12px;
-    width: 5em
+    padding: 7px;
+    width: 7em;
+    font-size: 1.5em;
+    height: 4.5em;
 }
 
 td {
     text-align: center;
     color: black;
     background-color: #d8bb9e;
-    padding: 12px;
+    padding: 7px;
+    height: 5em;
 }
 
 td:first-child {
@@ -333,4 +335,38 @@ input[type="submit"] {
     box-sizing: border-box;
     margin-top: 0.5em;
     margin-bottom: 0.8em;
+}
+
+.lidos {
+    border: 0.4em solid #2b1f14;
+    background-color:#af8964 ;
+    border-radius: 40px;
+    padding: 3em;
+    color: black;
+    margin: auto;
+    max-width: 30em;
+    text-align: left;
+    color:white
+}
+
+.lidos img {
+    float:left;
+    width: 10em;
+}
+
+.info {
+    display: flex;
+
+}
+
+.info h4 {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.biblioteca {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em
 }
