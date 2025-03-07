@@ -52,16 +52,21 @@ main.somos {
     align-items: center;
     margin-left: 0;
     background-size: 20px 20px;
+    max-width: 100%;
 }
 
 .barra-pesquisa input[type="text"] {
-    padding: 5px 10px;
+    padding: 20px 20px;
     border-radius: 15px 0 0 15px;
     border: 1px solid #ccc;
-    width: 200px;
+    width: 400px;
     outline: none;
     background-color: gray;
     color: white;
+    box-sizing: border-box;
+    height: 45px;
+    vertical-align: middle;
+    max-width: 100%;
 }
 
 .barra-pesquisa input[type="text"]::placeholder {
@@ -69,9 +74,9 @@ main.somos {
     font-size: 25px;
 }
 
-.barra-pesquisa button {
+/*.barra-pesquisa button {
     background: url('images/lupa.png') no-repeat center, gray;
-    background-size: 20px 20px;
+    image
     border: 1px solid #ccc;
     border-left: none;
     border-radius: 0 15px 15px 0;
@@ -80,6 +85,38 @@ main.somos {
     cursor: pointer;
     outline: none;
 }
+*/
+.pesquisa {
+    display: flex;
+}
+
+/* input[type="image"]{
+    background-color: gray;
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.3em 0.8em;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 50px  50px 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+*/
+
+input[type="image"] {
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 15px 15px 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    padding: 1em;   
+}  
+
 
 .conteiner-circulo-texto {
     display: flex;
@@ -201,17 +238,6 @@ div a{
     margin: 1em 4em 0 0;
 }
 
-.participar button {
-    background-color: rgb(175, 137, 100);
-    color: aliceblue;
-    font-size: 2em;
-    font-weight: bolder;
-    padding: 0.3em 0.8em;
-    text-align: center;
-    border-radius: 50px;
-    text-decoration: none;
-}
-
 figure.livro {
     float: left;
     margin: 0;
@@ -298,7 +324,7 @@ td:first-child {
     color: black;
 }
 
-form{
+.inscrever{
     border: 0.4em solid #2b1f14;
     background-color:#af8964 ;
     border-radius: 40px;
