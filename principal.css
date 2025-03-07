@@ -394,5 +394,6 @@ input[type="submit"] {
 .biblioteca {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em
+    gap: 1em;
+    margin-top: 2em;
 }
