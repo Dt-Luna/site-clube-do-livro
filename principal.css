@@ -33,6 +33,7 @@ body {
 
 main {
     margin: 4em;
+    flex-wrap: wrap;
 }
 
 main.somos {
@@ -86,12 +87,6 @@ main.somos {
     margin-left: 50px;
 }
 
-/* .conteiner-circulo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
-
 .circulo {
     width: 150px;
     height: 150px;
@@ -110,7 +105,7 @@ main.somos {
     height: 150px;
 }
 
-div.somos {
+.display {
     display: flex;
     gap:4em;
 }
@@ -183,6 +178,22 @@ div a{
     text-align: center;
     border-radius: 50px;
     margin-left: 83%;
+}
+
+.participar {
+    text-align: right;
+    margin: 1em 4em 0 0;
+}
+
+.participar button {
+    background-color: rgb(175, 137, 100);
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 0.3em 0.8em;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
 }
 
 figure.livro {
