@@ -112,7 +112,7 @@ main.somos {
 
 div.somos {
     display: flex;
-    gap:4em
+    gap:4em;
 }
 
 article.principal {
@@ -123,6 +123,7 @@ section {
     margin: 5% 5% 5% 5%;
     text-align: center;
     color: aliceblue;
+    vertical-align: text-top;
 }
 
 .somos article {
@@ -240,12 +241,6 @@ a {
     text-decoration: none;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 table {
     height: 25em;
     margin: auto;
@@ -285,6 +280,11 @@ form{
     margin: auto;
 }
 
+.forms input[type="text"]::placeholder {
+    color: black;
+    padding: 1em;
+}
+
 .enunciado{
     font-weight: bold;
     color: white;
@@ -293,8 +293,18 @@ form{
 
 input[type="submit"] {
     border-radius: 10px;
-    background-color: #faede1;
     border: 0.1em solid #2b1f14;
+    border-radius: 15em;
     padding: 0.5em;
     float:right
+}
+
+.input-bg {
+    background-color:#fad9b7;
+    border-radius: 15em;
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
 }
