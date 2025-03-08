@@ -209,7 +209,11 @@ div a{
 
 .participar {
     text-align: right;
-    margin: 1em 4em 0 0;
+    margin: 1em 4em 0em 0em
+}
+
+div.somosparticipar {
+    margin: 1em 4em 0em 0em
 }
 
 figure.livro {
@@ -318,6 +322,10 @@ td:first-child {
     color: white;
     margin: 1em 0em 0.4em 0em;
     font-size: 20px;
+}
+
+main.somos div a {
+    margin-right: 2em;
 }
 
 p.enunciado {
